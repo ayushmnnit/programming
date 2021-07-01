@@ -13,7 +13,7 @@ import graph._
 object Main {
 
   def graph(spark: SparkSession): Unit =
-    Script0(spark)
+    ScriptUpdate(spark)
 
   def main(args: Array[String]): Unit = {
     import config._
