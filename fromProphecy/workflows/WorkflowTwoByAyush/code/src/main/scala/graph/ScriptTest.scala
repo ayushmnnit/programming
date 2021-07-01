@@ -10,22 +10,14 @@ import udfs.UDFs._
 import udfs._
 import graph._
 
-@Visual(id="Script0", label="Script0", x = 170, y = 80, phase = 0)
-object Script0 {
-  
-  def apply(spark: SparkSession): ScriptUnit = {
+@Visual(id = "ScriptTest", label = "Script-Test", x = 170, y = 80, phase = 0)
+object ScriptTest {
+
+  def apply(spark: SparkSession): Script = {
     import spark.implicits._
-    
 
-    
-
-    
+    out
 
   }
 
-  
-
 }
-
-
-
