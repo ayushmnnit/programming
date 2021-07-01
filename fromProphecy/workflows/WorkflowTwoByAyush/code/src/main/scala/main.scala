@@ -12,8 +12,7 @@ import graph._
 @Visual(mode = "batch", interimMode = "full")
 object Main {
 
-  def graph(spark: SparkSession): Unit =
-    ScriptUpdate(spark)
+  def graph(spark: SparkSession): Unit = {}
 
   def main(args: Array[String]): Unit = {
     import config._
