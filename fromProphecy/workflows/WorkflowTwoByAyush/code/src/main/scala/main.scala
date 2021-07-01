@@ -14,7 +14,7 @@ object Main {
 
   def graph(spark: SparkSession): Unit = {
 
-    val df_ScriptTest: Script = ScriptTest(spark)
+    val df_ScriptUpdate: Script = ScriptUpdate(spark)
 
   }
 

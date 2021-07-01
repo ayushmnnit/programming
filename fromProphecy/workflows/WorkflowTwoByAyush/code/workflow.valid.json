@@ -1,7 +1,7 @@
 {
   "graph" : {
     "processes" : {
-      "ScriptTest" : {
+      "ScriptUpdate" : {
         "component" : "Script",
         "group" : null,
         "properties" : {
@@ -16,7 +16,7 @@
           "limit" : 0
         },
         "metadata" : {
-          "label" : "Script-Test",
+          "label" : "ScriptUpdate",
           "x" : 170,
           "y" : 80
         },
@@ -31,7 +31,7 @@
     "groups" : [ ],
     "locked" : false,
     "metainfo" : {
-      "lastUpdated" : 1625148796533,
+      "lastUpdated" : 1625148845703,
       "id" : "WorkflowTwoByAyush",
       "memory" : 1,
       "language" : "scala",
