@@ -1,37 +1,11 @@
 {
   "graph" : {
-    "processes" : {
-      "ScriptUpdate" : {
-        "component" : "Script",
-        "group" : null,
-        "properties" : {
-          "outputSchema" : { },
-          "src_desc" : "",
-          "code" : "",
-          "detailedStats" : false,
-          "ramp" : 0,
-          "format" : "scala",
-          "udf_definitions" : [ ],
-          "phase" : 0,
-          "limit" : 0
-        },
-        "metadata" : {
-          "label" : "ScriptUpdate",
-          "x" : 170,
-          "y" : 80
-        },
-        "ports" : {
-          "inputs" : [ ],
-          "outputs" : [ "out" ]
-        },
-        "lineage" : ""
-      }
-    },
+    "processes" : { },
     "connections" : [ ],
     "groups" : [ ],
     "locked" : false,
     "metainfo" : {
-      "lastUpdated" : 1625148845703,
+      "lastUpdated" : 1625148980430,
       "id" : "WorkflowTwoByAyush",
       "memory" : 1,
       "language" : "scala",
